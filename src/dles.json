@@ -3,7 +3,7 @@
     "link": "https://www.nytimes.com/games/connections",
     "icon": "",
     "title": "Connections",
-    "description": "Group words that share a common thread.",
+    "description": "Group words that share a common thread",
     "primary": true,
     "tags": ["words", "nyt"]
   },
@@ -11,7 +11,7 @@
     "link": "https://www.nytimes.com/games/strands",
     "icon": "",
     "title": "Strands",
-    "description": "Group words that share a common thread.",
+    "description": "Find hidden words and uncover the day's theme",
     "primary": true,
     "tags": ["words", "nyt"]
   },
@@ -19,7 +19,7 @@
     "link": "https://spellcheck.xyz/",
     "icon": "",
     "title": "Spellcheck",
-    "description": "A daily spellchecking game",
+    "description": "A daily spelling game",
     "primary": true,
     "tags": ["words"]
   },
@@ -90,7 +90,7 @@
   {
     "link": "https:/movietomovie.com/",
     "icon": "",
-    "title": "Framed",
+    "title": "MovieToMovie",
     "description": "Get from one movie to another based on actors in common",
     "primary": false,
     "tags": ["movies"]
