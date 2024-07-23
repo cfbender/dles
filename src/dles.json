@@ -56,7 +56,7 @@
     "tags": ["words"]
   },
   {
-    "link": "https:/betweenle.com/",
+    "link": "https://betweenle.com/",
     "icon": "",
     "title": "Betweenle",
     "description": "Find the word between 2 words",
@@ -64,7 +64,7 @@
     "tags": ["words"]
   },
   {
-    "link": "https:/contexto.me/",
+    "link": "https://contexto.me/",
     "icon": "",
     "title": "Contexto",
     "description": "Find the secret word based on context association",
@@ -72,7 +72,7 @@
     "tags": ["words"]
   },
   {
-    "link": "https:/www.cinenerdle2.app/",
+    "link": "https://www.cinenerdle2.app/",
     "icon": "",
     "title": "Cine2Nerdle",
     "description": "Arrange the clues into 5 different movies",
@@ -80,7 +80,7 @@
     "tags": ["movies"]
   },
   {
-    "link": "https:/framed.wtf/",
+    "link": "https://framed.wtf/",
     "icon": "",
     "title": "Framed",
     "description": "Guess the movie based on a single frame",
@@ -88,7 +88,7 @@
     "tags": ["movies"]
   },
   {
-    "link": "https:/movietomovie.com/",
+    "link": "https://movietomovie.com/",
     "icon": "",
     "title": "MovieToMovie",
     "description": "Get from one movie to another based on actors in common",
@@ -97,7 +97,7 @@
   },
 
   {
-    "link": "https:/timeguessr.com/",
+    "link": "https://timeguessr.com/",
     "icon": "",
     "title": "Timeguessr",
     "description": "Guess the year and location of 5 different photos from history",
@@ -105,7 +105,7 @@
     "tags": ["world"]
   },
   {
-    "link": "https:/worldle.teuteuf.fr/",
+    "link": "https://worldle.teuteuf.fr/",
     "icon": "",
     "title": "Worldle",
     "description": "Guess the country based on it's outline",
@@ -113,7 +113,7 @@
     "tags": ["world"]
   },
   {
-    "link": "https:/travle.earth/",
+    "link": "https://travle.earth/",
     "icon": "",
     "title": "Travle",
     "description": "Find the shortest path between two countries",
@@ -121,7 +121,7 @@
     "tags": ["world"]
   },
   {
-    "link": "https:/games.oec.world/en/tradle/",
+    "link": "https://games.oec.world/en/tradle/",
     "icon": "",
     "title": "Tradle",
     "description": "Guess the country based on it's exports",
