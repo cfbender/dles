@@ -1,5 +1,5 @@
 import { DleCard } from "./components/dle-card";
-import { createSignal, For } from "solid-js";
+import { createSignal, For, onMount } from "solid-js";
 import { makePersisted } from "@solid-primitives/storage";
 import dles from "./dles.json";
 import { getDate } from "./utils";
@@ -8,13 +8,16 @@ const secondary = dles.filter(({ primary }) => !primary);
 function App() {
   const [state, setState] = makePersisted(createSignal({ date: getDate() }));
 
-  setInterval(() => {
-    const now = getDate();
+  const resetDate = () => {
     // clear state on new day
+    const now = getDate();
     if (state().date !== now) {
       setState({ date: now });
     }
-  }, 30_000);
+  };
+
+  onMount(resetDate);
+  setInterval(resetDate, 1_000);
 
   return (
     <div class="h-100 w-100 bg-base">

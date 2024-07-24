@@ -32,6 +32,14 @@
     "tags": ["trivia"]
   },
   {
+    "link": "https://playdisorderly.com/",
+    "icon": "",
+    "title": "Disorderly",
+    "description": "Arrange things in the correct order",
+    "primary": false,
+    "tags": ["trivia"]
+  },
+  {
     "link": "https://www.nytimes.com/games/wordle",
     "icon": "",
     "title": "Wordle",
@@ -102,7 +110,7 @@
     "title": "Timeguessr",
     "description": "Guess the year and location of 5 different photos from history",
     "primary": false,
-    "tags": ["world"]
+    "tags": ["geography"]
   },
   {
     "link": "https://worldle.teuteuf.fr/",
@@ -110,7 +118,7 @@
     "title": "Worldle",
     "description": "Guess the country based on it's outline",
     "primary": false,
-    "tags": ["world"]
+    "tags": ["geography"]
   },
   {
     "link": "https://travle.earth/",
@@ -118,7 +126,7 @@
     "title": "Travle",
     "description": "Find the shortest path between two countries",
     "primary": false,
-    "tags": ["world"]
+    "tags": ["geography"]
   },
   {
     "link": "https://games.oec.world/en/tradle/",
@@ -126,9 +134,16 @@
     "title": "Tradle",
     "description": "Guess the country based on it's exports",
     "primary": false,
-    "tags": ["world"]
+    "tags": ["geography"]
   },
-
+  {
+    "link": "https://urbanstats.org/quiz.html",
+    "icon": "",
+    "title": "Juxtastat",
+    "description": "Choose between two geographical regions based on statistitcs",
+    "primary": false,
+    "tags": ["geography"]
+  },
   {
     "link": "https://redactle.net/",
     "icon": "",
@@ -168,6 +183,14 @@
     "description": "Fill 9 different pokemon into a restricted sudoku-like grid",
     "primary": false,
     "tags": ["videogames"]
+  },
+  {
+    "link": "https://relatle.io/",
+    "icon": "",
+    "title": "Relatle",
+    "description": "Get from one artist to another based on Spotify related artists",
+    "primary": false,
+    "tags": ["music"]
   },
   {
     "link": "https://bandle.app/",
@@ -214,6 +237,14 @@
     "icon": "",
     "title": "Nerdle",
     "description": "Guess the math equation",
+    "primary": false,
+    "tags": ["random"]
+  },
+  {
+    "link": "https://faces.wtf/",
+    "icon": "",
+    "title": "Faces",
+    "description": "Guess the two celebrities based on an AI generated merged photo",
     "primary": false,
     "tags": ["random"]
   }
