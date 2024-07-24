@@ -16,7 +16,7 @@ export const DleCard = ({
   return (
     <>
       <a
-        class={`md:w-1/2 p-4 flex flex-col hover:bg-surface0 `}
+        class="md:w-1/2 p-4 flex flex-col hover:bg-surface0"
         href={link}
         target="_blank"
         onClick={handleClick}

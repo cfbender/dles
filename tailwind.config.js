@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         base: "rgb(48, 52, 70)",
         surface0: "rgb(65, 69, 89)",
+        surface1: "rgb(81, 87, 109)",
         text: "rgb(198, 208, 245)",
         subtext: "rgb(181, 191, 226)",
         subtext1: "rgb(165, 173, 206)",

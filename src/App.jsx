@@ -1,10 +1,23 @@
 import { DleCard } from "./components/dle-card";
+import { Accordion } from "./components/accordion";
 import { createSignal, For, onMount } from "solid-js";
 import { makePersisted } from "@solid-primitives/storage";
 import dles from "./dles.json";
-import { getDate } from "./utils";
+import { capitalize, getDate } from "./utils";
+
 const everyDay = dles.filter(({ primary }) => primary);
-const secondary = dles.filter(({ primary }) => !primary);
+
+const secondary = dles
+  .filter(({ primary }) => !primary)
+  .reduce(
+    (acc, dle) => ({
+      ...acc,
+      [dle.category]: [...(acc[dle.category] || []), dle],
+    }),
+
+    {},
+  );
+
 function App() {
   const [state, setState] = makePersisted(createSignal({ date: getDate() }));
 
@@ -34,14 +47,20 @@ function App() {
         </For>
 
         <h2 class="text-xl text-text ml-4 mt-24 mb-4">if you're bored</h2>
-        <For each={secondary}>
-          {(dle) => (
-            <DleCard
-              secondary={true}
-              {...dle}
-              state={state}
-              setState={setState}
-            />
+        <For each={Object.entries(secondary)}>
+          {([category, dles]) => (
+            <Accordion title={capitalize(category)}>
+              <For each={dles}>
+                {(dle) => (
+                  <DleCard
+                    secondary={true}
+                    {...dle}
+                    state={state}
+                    setState={setState}
+                  />
+                )}
+              </For>
+            </Accordion>
           )}
         </For>
       </div>
