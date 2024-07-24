@@ -33,7 +33,7 @@ function App() {
   setInterval(resetDate, 1_000);
 
   return (
-    <div class="h-100 w-100 bg-base">
+    <div class="h-100 w-100 bg-base mb-16">
       <header class="flex flex-col">
         <h1 class="text-2xl mx-auto mt-8 text-text">the dles.</h1>
         <h3 class="text-md mx-auto mt-2 text-subtext">
