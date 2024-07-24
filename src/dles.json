@@ -43,7 +43,7 @@
     "link": "https://www.nytimes.com/games/wordle",
     "icon": "",
     "title": "Wordle",
-    "description": "Get 6 chances to guess a 5-letter word.",
+    "description": "Get 6 chances to guess a 5-letter word",
     "primary": false,
     "category": "words"
   },
@@ -51,7 +51,7 @@
     "link": "https://www.nytimes.com/crosswords/game/mini",
     "icon": "",
     "title": "Mini Crossword",
-    "description": "Get 6 chances to guess a 5-letter word.",
+    "description": "It's literally a mini crossword",
     "primary": false,
     "category": "words"
   },
