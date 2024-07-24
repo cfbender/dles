@@ -185,6 +185,14 @@
     "category": "videogames"
   },
   {
+    "link": "https://loldle.net/classic",
+    "icon": "",
+    "title": "Loldle",
+    "description": "Guess the League of Legends champion",
+    "primary": false,
+    "category": "videogames"
+  },
+  {
     "link": "https://relatle.io/",
     "icon": "",
     "title": "Relatle",
