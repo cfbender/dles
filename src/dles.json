@@ -16,7 +16,7 @@
     "category": "words"
   },
   {
-    "link": "https://spellcheck.xyz/",
+    "link": "https://spellcheckgame.com/",
     "icon": "",
     "title": "Spellcheck",
     "description": "A daily spelling game",
@@ -253,6 +253,14 @@
     "icon": "",
     "title": "Faces",
     "description": "Guess the two celebrities based on an AI generated merged photo",
+    "primary": false,
+    "category": "random"
+  },
+  {
+    "link": "https://powershelldle.com/",
+    "icon": "",
+    "title": "PowerShelldle",
+    "description": "Guess the PowerShell cmdlet based on some hint",
     "primary": false,
     "category": "random"
   }
