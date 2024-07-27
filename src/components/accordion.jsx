@@ -3,9 +3,9 @@ import { createSignal, Show } from "solid-js";
 export const Accordion = ({ children, title }) => {
   const [open, setOpen] = createSignal(false);
   return (
-    <div class="mb-2">
+    <div class="md:w-3/4 w-full mb-2">
       <button
-        class="md:w-3/4 w-full p-4 flex justify-between bg-surface0 hover:bg-surface1 rounded-md"
+        class="w-full p-4 flex justify-between bg-surface0 hover:bg-surface1 rounded-md"
         onClick={() => {
           setOpen((prev) => !prev);
         }}
@@ -14,9 +14,9 @@ export const Accordion = ({ children, title }) => {
         <span class="text-rosewater">{open() ? "▲" : "▼"}</span>
       </button>
 
-      <div class="md:w-3/4 w-full">
-        <Show when={open()}>{children}</Show>
-      </div>
+      <Show when={open()}>
+        <div class="md:w-3/4 w-full md:mx-auto p-2">{children}</div>
+      </Show>
     </div>
   );
 };

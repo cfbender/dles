@@ -16,6 +16,8 @@ function App() {
     { name: "dle-state" },
   );
 
+  const [reorganizing, setReorganizing] = createSignal(false);
+
   const primary = createMemo(() =>
     dles.filter(({ title }) => state().primary.includes(title)),
   );
@@ -60,14 +62,21 @@ function App() {
           all you need to feel alive.
         </h3>
       </header>
-      <div class="container max-w-3xl mt-16 p-8 flex flex-col">
+      <div class="container max-w-3xl mt-16 p-8 flex flex-col md:items-center">
         <h2 class="text-xl text-text ml-4 mb-4">every day joints</h2>
         <For each={primary()}>
-          {(dle) => <DleCard {...dle} state={state} setState={setState} />}
+          {(dle) => (
+            <DleCard
+              {...dle}
+              state={state}
+              setState={setState}
+              reorganizing={reorganizing}
+            />
+          )}
         </For>
 
         <h2 class="text-xl text-text mt-24 ml-4 mb-4">if you're bored</h2>
-        <div class="ml-4">
+        <div class="md:w-full ml-4 flex flex-col md:items-center">
           <For each={Object.entries(secondary())}>
             {([category, dles]) => (
               <Accordion title={capitalize(category)}>
@@ -78,6 +87,7 @@ function App() {
                       {...dle}
                       state={state}
                       setState={setState}
+                      reorganizing={reorganizing}
                     />
                   )}
                 </For>
@@ -86,6 +96,19 @@ function App() {
           </For>
         </div>
       </div>
+      <button
+        class="mt-4 p-2 h-1/2 text-sapphire hover:bg-surface0 rounded"
+        onClick={() => {
+          setReorganizing((prev) => !prev);
+        }}
+      >
+        <Switch>
+          <Match when={reorganizing()}>save</Match>
+          <Match when={!reorganizing()}>
+            don't like my favorites? (click here)
+          </Match>
+        </Switch>
+      </button>
     </div>
   );
 }
