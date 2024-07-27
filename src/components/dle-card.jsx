@@ -14,9 +14,9 @@ export const DleCard = ({
 
   const color = secondary ? "text-sapphire" : "text-rosewater";
   return (
-    <>
+    <div class="md:w-full max-w-96 flex justify-between items-center">
       <a
-        class="md:w-1/2 p-4 flex flex-col hover:bg-surface0"
+        class="p-4 flex flex-col hover:bg-surface0 rounded"
         href={link}
         target="_blank"
         onClick={handleClick}
@@ -29,6 +29,32 @@ export const DleCard = ({
         </div>
         <p class="text-sm text-subtext1">{description}</p>
       </a>
-    </>
+      <Show when={!secondary}>
+        <button
+          class="p-2 h-1/2 hover:bg-surface0 rounded opacity-30"
+          onClick={() => {
+            setState((prev) => ({
+              ...prev,
+              primary: prev.primary.filter((p) => p !== title),
+            }));
+          }}
+        >
+          ❌
+        </button>
+      </Show>
+      <Show when={secondary}>
+        <button
+          class="p-2 h-1/2 hover:bg-surface0 rounded opacity-30"
+          onClick={() => {
+            setState((prev) => ({
+              ...prev,
+              primary: [...prev.primary, title],
+            }));
+          }}
+        >
+          💗
+        </button>
+      </Show>
+    </div>
   );
 };

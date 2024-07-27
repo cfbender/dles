@@ -5,7 +5,7 @@ export const Accordion = ({ children, title }) => {
   return (
     <div class="mb-2">
       <button
-        class="md:w-1/2 p-4 flex justify-between bg-surface0 hover:bg-surface1 rounded-md"
+        class="md:w-3/4 w-full p-4 flex justify-between bg-surface0 hover:bg-surface1 rounded-md"
         onClick={() => {
           setOpen((prev) => !prev);
         }}
@@ -14,7 +14,9 @@ export const Accordion = ({ children, title }) => {
         <span class="text-rosewater">{open() ? "▲" : "▼"}</span>
       </button>
 
-      <Show when={open()}>{children}</Show>
+      <div class="md:w-3/4 w-full">
+        <Show when={open()}>{children}</Show>
+      </div>
     </div>
   );
 };
