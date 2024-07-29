@@ -1,6 +1,16 @@
-import { Show } from "solid-js";
+import { Accessor, Component, Setter, Show } from 'solid-js'
+import { DleState } from '../App'
 
-export const DleCard = ({
+type DleProps = {
+  title: string
+  description: string
+  link: string
+  secondary?: boolean
+  state: Accessor<DleState>
+  setState: Setter<DleState>
+  reorganizing: Accessor<boolean>
+}
+export const DleCard: Component<DleProps> = ({
   title,
   description,
   link,
@@ -10,10 +20,10 @@ export const DleCard = ({
   reorganizing,
 }) => {
   const handleClick = () => {
-    setState((prev) => ({ ...prev, [title]: true }));
-  };
+    setState((prev) => ({ ...prev, [title]: true }))
+  }
 
-  const color = secondary ? "text-sapphire" : "text-rosewater";
+  const color = secondary ? 'text-sapphire' : 'text-rosewater'
   return (
     <div class="md:w-full max-w-96 flex justify-between items-center">
       <a
@@ -38,7 +48,7 @@ export const DleCard = ({
               setState((prev) => ({
                 ...prev,
                 primary: prev.primary.filter((p) => p !== title),
-              }));
+              }))
             }}
           >
             ❌
@@ -51,7 +61,7 @@ export const DleCard = ({
               setState((prev) => ({
                 ...prev,
                 primary: [...prev.primary, title],
-              }));
+              }))
             }}
           >
             💗
@@ -59,5 +69,5 @@ export const DleCard = ({
         </Show>
       </Show>
     </div>
-  );
-};
+  )
+}

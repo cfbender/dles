@@ -1,28 +1,30 @@
-import { DleCard } from "./components/dle-card";
-import { Accordion } from "./components/accordion";
-import { createSignal, createMemo, For, onMount } from "solid-js";
-import { makePersisted } from "@solid-primitives/storage";
-import dles from "./dles.json";
-import { capitalize, getDate } from "./utils";
+import { DleCard } from './components/dle-card'
+import { Accordion } from './components/accordion'
+import { createSignal, createMemo, For, onMount, Switch, Match } from 'solid-js'
+import { makePersisted } from '@solid-primitives/storage'
+import dles from './dles.json'
+import { capitalize, getDate } from './utils'
+import { Dle } from './types'
 
-const everyDay = dles.filter(({ primary }) => primary);
+const everyDay: Dle[] = dles.filter(({ primary }) => primary)
+export type DleState = { date: string; primary: string[] }
 
 function App() {
   const [state, setState] = makePersisted(
-    createSignal({
+    createSignal<DleState>({
       date: getDate(),
       primary: everyDay.map(({ title }) => title),
     }),
-    { name: "dle-state" },
-  );
+    { name: 'dles-state' }
+  )
 
-  const [reorganizing, setReorganizing] = createSignal(false);
+  const [reorganizing, setReorganizing] = createSignal(false)
 
-  const primary = createMemo(() =>
-    dles.filter(({ title }) => state().primary.includes(title)),
-  );
+  const primary = createMemo<Dle[]>(() => {
+    return dles.filter(({ title }) => state().primary.includes(title))
+  })
 
-  const secondary = createMemo(() =>
+  const secondary = createMemo<Record<string, Dle[]>>(() =>
     dles
       .filter(({ title }) => !primary().some((dle) => dle.title === title))
       .reduce(
@@ -31,28 +33,28 @@ function App() {
           [dle.category]: [...(acc[dle.category] || []), dle],
         }),
 
-        {},
-      ),
-  );
+        {}
+      )
+  )
 
   const resetDate = () => {
     // clear state on new day
-    const now = getDate();
+    const now = getDate()
     if (state().date !== now) {
-      setState({ date: now });
+      setState({ date: now, primary: primary().map(({ title }) => title) })
     }
-  };
+  }
 
   onMount(() => {
-    resetDate();
+    resetDate()
     if (!state().primary) {
       setState((prev) => ({
         ...prev,
         primary: everyDay.map(({ title }) => title),
-      }));
+      }))
     }
-  });
-  setInterval(resetDate, 1_000);
+  })
+  setInterval(resetDate, 1_000)
 
   return (
     <div class="h-full w-full bg-base mb-16 flex flex-col items-center">
@@ -99,7 +101,7 @@ function App() {
       <button
         class="mt-4 p-2 h-1/2 text-sapphire hover:bg-surface0 rounded"
         onClick={() => {
-          setReorganizing((prev) => !prev);
+          setReorganizing((prev) => !prev)
         }}
       >
         <Switch>
@@ -110,7 +112,7 @@ function App() {
         </Switch>
       </button>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

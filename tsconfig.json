@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["DOM", "ESNext"]
+  }
+}
