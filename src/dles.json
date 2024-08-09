@@ -56,6 +56,14 @@
     "category": "words"
   },
   {
+    "link": "https://craftword.game",
+    "icon": "",
+    "title": "CraftWord",
+    "description": "Craft the start word into the goal word",
+    "primary": false,
+    "category": "words"
+  },
+  {
     "link": "https://duotrigordle.com/",
     "icon": "",
     "title": "Duotrigordle",
