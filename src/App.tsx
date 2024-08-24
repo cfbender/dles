@@ -9,6 +9,9 @@ import { Dle } from './types'
 const everyDay: Dle[] = dles.filter(({ primary }) => primary)
 export type DleState = { date: string; primary: string[] }
 
+type BeforeInstallPromptEvent = Event & { prompt: () => void }
+let deferredPrompt: BeforeInstallPromptEvent
+
 function App() {
   const [state, setState] = makePersisted(
     createSignal<DleState>({
@@ -19,6 +22,7 @@ function App() {
   )
 
   const [reorganizing, setReorganizing] = createSignal(false)
+  const [installable, setInstallable] = createSignal(false)
 
   const primary = createMemo<Dle[]>(() => {
     return dles.filter(({ title }) => state().primary.includes(title))
@@ -53,8 +57,22 @@ function App() {
         primary: everyDay.map(({ title }) => title),
       }))
     }
+    window.addEventListener('beforeinstallprompt', (e) => {
+      // Stash the event so it can be triggered later.
+      deferredPrompt = e as BeforeInstallPromptEvent
+      // Update UI notify the user they can install the PWA
+      setInstallable(true)
+    })
   })
+
   setInterval(resetDate, 1_000)
+
+  const handleInstallClick = async () => {
+    // Hide the app provided install promotion
+    setInstallable(false)
+    // Show the install prompt
+    deferredPrompt.prompt()
+  }
 
   return (
     <div class="h-full w-full bg-base mb-16 flex flex-col items-center">
@@ -111,6 +129,14 @@ function App() {
           </Match>
         </Switch>
       </button>
+      {installable() && (
+        <button
+          class="mt-4 p-2 h-1/2 text-sapphire hover:bg-surface0 rounded"
+          onClick={handleInstallClick}
+        >
+          install to your device
+        </button>
+      )}
     </div>
   )
 }
