@@ -271,5 +271,13 @@
     "description": "Guess the PowerShell cmdlet based on some hint",
     "primary": false,
     "category": "random"
+  },
+  {
+    "link": "https://googlefeud.com/",
+    "icon": "",
+    "title": "Google Feud",
+    "description": "Finish the Google autocomplete",
+    "primary": false,
+    "category": "random"
   }
 ]
