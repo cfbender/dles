@@ -137,6 +137,15 @@ function App() {
           install to your device
         </button>
       )}
+      <p class="mt-4 text-surface2">
+        made with love by{' '}
+        <a
+          class="text-rosewater underline"
+          href="https://github.com/cfbender/dles"
+        >
+          cfbender
+        </a>
+      </p>
     </div>
   )
 }
