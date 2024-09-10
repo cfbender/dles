@@ -16,7 +16,7 @@
     "category": "words"
   },
   {
-    "link": "https://spellcheckgame.com/",
+    "link": "https://spellcheck.xyz/",
     "icon": "",
     "title": "Spellcheck",
     "description": "A daily spelling game",
@@ -111,7 +111,6 @@
     "primary": false,
     "category": "movies"
   },
-
   {
     "link": "https://timeguessr.com/",
     "icon": "",
