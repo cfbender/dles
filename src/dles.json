@@ -112,6 +112,14 @@
     "category": "movies"
   },
   {
+    "link": "https://actorle.com/",
+    "icon": "",
+    "title": "Actorle",
+    "description": "Guess the featured actor based on their movies",
+    "primary": false,
+    "category": "movies"
+  },
+  {
     "link": "https://timeguessr.com/",
     "icon": "",
     "title": "Timeguessr",
