@@ -208,6 +208,14 @@
     "category": "videogames"
   },
   {
+    "link": "https://www.vgbandle.app/",
+    "icon": "",
+    "title": "VG Bandle",
+    "description": "Guess the video game and song played by the MIDI band",
+    "primary": false,
+    "category": "videogames"
+  },
+  {
     "link": "https://relatle.io/",
     "icon": "",
     "title": "Relatle",
