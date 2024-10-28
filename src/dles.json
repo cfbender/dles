@@ -136,6 +136,14 @@
     "category": "geography"
   },
   {
+    "link": "https://www.geogridgame.com/",
+    "icon": "",
+    "title": "Geogrid",
+    "description": "Test your geography knowledge with daily puzzles",
+    "primary": false,
+    "category": "geography"
+  },
+  {
     "link": "https://travle.earth/",
     "icon": "",
     "title": "Travle",
