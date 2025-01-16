@@ -48,6 +48,14 @@
     "category": "words"
   },
   {
+    "link": "https://hedalu244.github.io/diffle/",
+    "icon": "",
+    "title": "Diffle",
+    "description": "Guess the word using as few letters as possible",
+    "primary": false,
+    "category": "words"
+  },
+  {
     "link": "https://www.nytimes.com/crosswords/game/mini",
     "icon": "",
     "title": "Mini Crossword",
@@ -300,6 +308,14 @@
     "icon": "",
     "title": "Google Feud",
     "description": "Finish the Google autocomplete",
+    "primary": false,
+    "category": "random"
+  },
+  {
+    "link": "https://murdle.com/index.html",
+    "icon": "",
+    "title": "Murdle",
+    "description": "Crack the case of a murder in this logic puzzle",
     "primary": false,
     "category": "random"
   }
