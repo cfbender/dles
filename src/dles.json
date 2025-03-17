@@ -184,6 +184,14 @@
     "category": "wikipedia"
   },
   {
+    "link": "https://catfishing.net/",
+    "icon": "",
+    "title": "Catfishing",
+    "description": "Guess the wikipedia article based on the categories",
+    "primary": false,
+    "category": "wikipedia"
+  },
+  {
     "link": "https://wikispeedruns.com/",
     "icon": "",
     "title": "Wiki Speedruns",
