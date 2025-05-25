@@ -1,330 +1,338 @@
 [
-  {
-    "link": "https://www.nytimes.com/games/connections",
-    "icon": "",
-    "title": "Connections",
-    "description": "Group words that share a common thread",
-    "primary": true,
-    "category": "words"
-  },
-  {
-    "link": "https://www.nytimes.com/games/strands",
-    "icon": "",
-    "title": "Strands",
-    "description": "Find hidden words and uncover the day's theme",
-    "primary": true,
-    "category": "words"
-  },
-  {
-    "link": "https://spellcheck.xyz/",
-    "icon": "",
-    "title": "Spellcheck",
-    "description": "A daily spelling game",
-    "primary": true,
-    "category": "words"
-  },
-  {
-    "link": "https://thrice.geekswhodrink.com/",
-    "icon": "",
-    "title": "Thrice",
-    "description": "5 rounds of brain gymnastics, each from a different category",
-    "primary": false,
-    "category": "trivia"
-  },
-  {
-    "link": "https://playdisorderly.com/",
-    "icon": "",
-    "title": "Disorderly",
-    "description": "Arrange things in the correct order",
-    "primary": false,
-    "category": "trivia"
-  },
-  {
-    "link": "https://www.nytimes.com/games/wordle",
-    "icon": "",
-    "title": "Wordle",
-    "description": "Get 6 chances to guess a 5-letter word",
-    "primary": false,
-    "category": "words"
-  },
-  {
-    "link": "https://hedalu244.github.io/diffle/",
-    "icon": "",
-    "title": "Diffle",
-    "description": "Guess the word using as few letters as possible",
-    "primary": false,
-    "category": "words"
-  },
-  {
-    "link": "https://www.nytimes.com/crosswords/game/mini",
-    "icon": "",
-    "title": "Mini Crossword",
-    "description": "It's literally a mini crossword",
-    "primary": false,
-    "category": "words"
-  },
-  {
-    "link": "https://craftword.game",
-    "icon": "",
-    "title": "CraftWord",
-    "description": "Craft the start word into the goal word",
-    "primary": false,
-    "category": "words"
-  },
-  {
-    "link": "https://duotrigordle.com/",
-    "icon": "",
-    "title": "Duotrigordle",
-    "description": "Solve 32 wordles at once",
-    "primary": false,
-    "category": "words"
-  },
-  {
-    "link": "https://betweenle.com/",
-    "icon": "",
-    "title": "Betweenle",
-    "description": "Find the word between 2 words",
-    "primary": false,
-    "category": "words"
-  },
-  {
-    "link": "https://contexto.me/",
-    "icon": "",
-    "title": "Contexto",
-    "description": "Find the secret word based on context association",
-    "primary": false,
-    "category": "words"
-  },
-  {
-    "link": "https://www.cinenerdle2.app/",
-    "icon": "",
-    "title": "Cine2Nerdle",
-    "description": "Arrange the clues into 5 different movies",
-    "primary": false,
-    "category": "movies"
-  },
-  {
-    "link": "https://framed.wtf/",
-    "icon": "",
-    "title": "Framed",
-    "description": "Guess the movie based on a single frame",
-    "primary": false,
-    "category": "movies"
-  },
-  {
-    "link": "https://movietomovie.com/",
-    "icon": "",
-    "title": "MovieToMovie",
-    "description": "Get from one movie to another based on actors in common",
-    "primary": false,
-    "category": "movies"
-  },
-  {
-    "link": "https://actorle.com/",
-    "icon": "",
-    "title": "Actorle",
-    "description": "Guess the featured actor based on their movies",
-    "primary": false,
-    "category": "movies"
-  },
-  {
-    "link": "https://timeguessr.com/",
-    "icon": "",
-    "title": "Timeguessr",
-    "description": "Guess the year and location of 5 different photos from history",
-    "primary": false,
-    "category": "geography"
-  },
-  {
-    "link": "https://worldle.teuteuf.fr/",
-    "icon": "",
-    "title": "Worldle",
-    "description": "Guess the country based on it's outline",
-    "primary": false,
-    "category": "geography"
-  },
-  {
-    "link": "https://www.geogridgame.com/",
-    "icon": "",
-    "title": "Geogrid",
-    "description": "Test your geography knowledge with daily puzzles",
-    "primary": false,
-    "category": "geography"
-  },
-  {
-    "link": "https://travle.earth/",
-    "icon": "",
-    "title": "Travle",
-    "description": "Find the shortest path between two countries",
-    "primary": false,
-    "category": "geography"
-  },
-  {
-    "link": "https://games.oec.world/en/tradle/",
-    "icon": "",
-    "title": "Tradle",
-    "description": "Guess the country based on it's exports",
-    "primary": false,
-    "category": "geography"
-  },
-  {
-    "link": "https://urbanstats.org/quiz.html",
-    "icon": "",
-    "title": "Juxtastat",
-    "description": "Choose between two geographical regions based on statistitcs",
-    "primary": false,
-    "category": "geography"
-  },
-  {
-    "link": "https://redactle.net/",
-    "icon": "",
-    "title": "Redactle",
-    "description": "Wikipedia based Puzzle game",
-    "primary": false,
-    "category": "wikipedia"
-  },
-  {
-    "link": "https://catfishing.net/",
-    "icon": "",
-    "title": "Catfishing",
-    "description": "Guess the wikipedia article based on the categories",
-    "primary": false,
-    "category": "wikipedia"
-  },
-  {
-    "link": "https://wikispeedruns.com/",
-    "icon": "",
-    "title": "Wiki Speedruns",
-    "description": "Race from one wikipedia page to another via links",
-    "primary": false,
-    "category": "wikipedia"
-  },
-  {
-    "link": "https://guessthe.game/",
-    "icon": "",
-    "title": "Guess The Game",
-    "description": "Guess a videogame based on a single frame screenshot",
-    "primary": false,
-    "category": "videogames"
-  },
-  {
-    "link": "https://www.gamedle.wtf/",
-    "icon": "",
-    "title": "Gamedle",
-    "description": "Guess the videogame based on it's cover",
-    "primary": false,
-    "category": "videogames"
-  },
-  {
-    "link": "https://pokedoku.com/",
-    "icon": "",
-    "title": "Pokedoku",
-    "description": "Fill 9 different pokemon into a restricted sudoku-like grid",
-    "primary": false,
-    "category": "videogames"
-  },
-  {
-    "link": "https://loldle.net/classic",
-    "icon": "",
-    "title": "Loldle",
-    "description": "Guess the League of Legends champion",
-    "primary": false,
-    "category": "videogames"
-  },
-  {
-    "link": "https://www.vgbandle.app/",
-    "icon": "",
-    "title": "VG Bandle",
-    "description": "Guess the video game and song played by the MIDI band",
-    "primary": false,
-    "category": "videogames"
-  },
-  {
-    "link": "https://relatle.io/",
-    "icon": "",
-    "title": "Relatle",
-    "description": "Get from one artist to another based on Spotify related artists",
-    "primary": false,
-    "category": "music"
-  },
-  {
-    "link": "https://bandle.app/",
-    "icon": "",
-    "title": "Bandle",
-    "description": "Guess the song based on it's individual parts",
-    "primary": false,
-    "category": "music"
-  },
-  {
-    "link": "https://techyonic.co/swiftle",
-    "icon": "",
-    "title": "Swiftle",
-    "description": "Guess the Taylor Swift song based on a short clip",
-    "primary": false,
-    "category": "music"
-  },
-  {
-    "link": "https://foodlewordle.io/harmonies-io",
-    "icon": "",
-    "title": "Harmonies",
-    "description": "Arrange the tags to make songs/albums",
-    "primary": false,
-    "category": "music"
-  },
-  {
-    "link": "https://costcodle.com",
-    "icon": "",
-    "title": "Costcodle",
-    "description": "Guess the price of an item sold at Costco",
-    "primary": false,
-    "category": "random"
-  },
-  {
-    "link": "https://foodguessr.com",
-    "icon": "",
-    "title": "Foodguesr",
-    "description": "Guess the country of origin of a dish",
-    "primary": false,
-    "category": "random"
-  },
-  {
-    "link": "https://nerdlegame.com",
-    "icon": "",
-    "title": "Nerdle",
-    "description": "Guess the math equation",
-    "primary": false,
-    "category": "random"
-  },
-  {
-    "link": "https://faces.wtf/",
-    "icon": "",
-    "title": "Faces",
-    "description": "Guess the two celebrities based on an AI generated merged photo",
-    "primary": false,
-    "category": "random"
-  },
-  {
-    "link": "https://powershelldle.com/",
-    "icon": "",
-    "title": "PowerShelldle",
-    "description": "Guess the PowerShell cmdlet based on some hint",
-    "primary": false,
-    "category": "random"
-  },
-  {
-    "link": "https://googlefeud.com/",
-    "icon": "",
-    "title": "Google Feud",
-    "description": "Finish the Google autocomplete",
-    "primary": false,
-    "category": "random"
-  },
-  {
-    "link": "https://murdle.com/index.html",
-    "icon": "",
-    "title": "Murdle",
-    "description": "Crack the case of a murder in this logic puzzle",
-    "primary": false,
-    "category": "random"
-  }
+	{
+		"link": "https://www.nytimes.com/games/connections",
+		"icon": "",
+		"title": "Connections",
+		"description": "Group words that share a common thread",
+		"primary": true,
+		"category": "words"
+	},
+	{
+		"link": "https://www.nytimes.com/games/strands",
+		"icon": "",
+		"title": "Strands",
+		"description": "Find hidden words and uncover the day's theme",
+		"primary": true,
+		"category": "words"
+	},
+	{
+		"link": "https://spellcheck.xyz/",
+		"icon": "",
+		"title": "Spellcheck",
+		"description": "A daily spelling game",
+		"primary": true,
+		"category": "words"
+	},
+	{
+		"link": "https://thrice.geekswhodrink.com/",
+		"icon": "",
+		"title": "Thrice",
+		"description": "5 rounds of brain gymnastics, each from a different category",
+		"primary": false,
+		"category": "trivia"
+	},
+	{
+		"link": "https://playdisorderly.com/",
+		"icon": "",
+		"title": "Disorderly",
+		"description": "Arrange things in the correct order",
+		"primary": false,
+		"category": "trivia"
+	},
+	{
+		"link": "https://www.nytimes.com/games/wordle",
+		"icon": "",
+		"title": "Wordle",
+		"description": "Get 6 chances to guess a 5-letter word",
+		"primary": false,
+		"category": "words"
+	},
+	{
+		"link": "https://hedalu244.github.io/diffle/",
+		"icon": "",
+		"title": "Diffle",
+		"description": "Guess the word using as few letters as possible",
+		"primary": false,
+		"category": "words"
+	},
+	{
+		"link": "https://www.nytimes.com/crosswords/game/mini",
+		"icon": "",
+		"title": "Mini Crossword",
+		"description": "It's literally a mini crossword",
+		"primary": false,
+		"category": "words"
+	},
+	{
+		"link": "https://craftword.game",
+		"icon": "",
+		"title": "CraftWord",
+		"description": "Craft the start word into the goal word",
+		"primary": false,
+		"category": "words"
+	},
+	{
+		"link": "https://duotrigordle.com/",
+		"icon": "",
+		"title": "Duotrigordle",
+		"description": "Solve 32 wordles at once",
+		"primary": false,
+		"category": "words"
+	},
+	{
+		"link": "https://betweenle.com/",
+		"icon": "",
+		"title": "Betweenle",
+		"description": "Find the word between 2 words",
+		"primary": false,
+		"category": "words"
+	},
+	{
+		"link": "https://contexto.me/",
+		"icon": "",
+		"title": "Contexto",
+		"description": "Find the secret word based on context association",
+		"primary": false,
+		"category": "words"
+	},
+	{
+		"link": "https://www.cinenerdle2.app/",
+		"icon": "",
+		"title": "Cine2Nerdle",
+		"description": "Arrange the clues into 5 different movies",
+		"primary": false,
+		"category": "movies"
+	},
+	{
+		"link": "https://framed.wtf/",
+		"icon": "",
+		"title": "Framed",
+		"description": "Guess the movie based on a single frame",
+		"primary": false,
+		"category": "movies"
+	},
+	{
+		"link": "https://movietomovie.com/",
+		"icon": "",
+		"title": "MovieToMovie",
+		"description": "Get from one movie to another based on actors in common",
+		"primary": false,
+		"category": "movies"
+	},
+	{
+		"link": "https://actorle.com/",
+		"icon": "",
+		"title": "Actorle",
+		"description": "Guess the featured actor based on their movies",
+		"primary": false,
+		"category": "movies"
+	},
+	{
+		"link": "https://timeguessr.com/",
+		"icon": "",
+		"title": "Timeguessr",
+		"description": "Guess the year and location of 5 different photos from history",
+		"primary": false,
+		"category": "geography"
+	},
+	{
+		"link": "https://worldle.teuteuf.fr/",
+		"icon": "",
+		"title": "Worldle",
+		"description": "Guess the country based on it's outline",
+		"primary": false,
+		"category": "geography"
+	},
+	{
+		"link": "https://www.geogridgame.com/",
+		"icon": "",
+		"title": "Geogrid",
+		"description": "Test your geography knowledge with daily puzzles",
+		"primary": false,
+		"category": "geography"
+	},
+	{
+		"link": "https://travle.earth/",
+		"icon": "",
+		"title": "Travle",
+		"description": "Find the shortest path between two countries",
+		"primary": false,
+		"category": "geography"
+	},
+	{
+		"link": "https://games.oec.world/en/tradle/",
+		"icon": "",
+		"title": "Tradle",
+		"description": "Guess the country based on it's exports",
+		"primary": false,
+		"category": "geography"
+	},
+	{
+		"link": "https://urbanstats.org/quiz.html",
+		"icon": "",
+		"title": "Juxtastat",
+		"description": "Choose between two geographical regions based on statistitcs",
+		"primary": false,
+		"category": "geography"
+	},
+	{
+		"link": "https://redactle.net/",
+		"icon": "",
+		"title": "Redactle",
+		"description": "Wikipedia based Puzzle game",
+		"primary": false,
+		"category": "wikipedia"
+	},
+	{
+		"link": "https://catfishing.net/",
+		"icon": "",
+		"title": "Catfishing",
+		"description": "Guess the wikipedia article based on the categories",
+		"primary": false,
+		"category": "wikipedia"
+	},
+	{
+		"link": "https://wikispeedruns.com/",
+		"icon": "",
+		"title": "Wiki Speedruns",
+		"description": "Race from one wikipedia page to another via links",
+		"primary": false,
+		"category": "wikipedia"
+	},
+	{
+		"link": "https://guessthe.game/",
+		"icon": "",
+		"title": "Guess The Game",
+		"description": "Guess a videogame based on a single frame screenshot",
+		"primary": false,
+		"category": "videogames"
+	},
+	{
+		"link": "https://www.gamedle.wtf/",
+		"icon": "",
+		"title": "Gamedle",
+		"description": "Guess the videogame based on it's cover",
+		"primary": false,
+		"category": "videogames"
+	},
+	{
+		"link": "https://pokedoku.com/",
+		"icon": "",
+		"title": "Pokedoku",
+		"description": "Fill 9 different pokemon into a restricted sudoku-like grid",
+		"primary": false,
+		"category": "videogames"
+	},
+	{
+		"link": "https://loldle.net/classic",
+		"icon": "",
+		"title": "Loldle",
+		"description": "Guess the League of Legends champion",
+		"primary": false,
+		"category": "videogames"
+	},
+	{
+		"link": "https://www.vgbandle.app/",
+		"icon": "",
+		"title": "VG Bandle",
+		"description": "Guess the video game and song played by the MIDI band",
+		"primary": false,
+		"category": "videogames"
+	},
+	{
+		"link": "https://relatle.io/",
+		"icon": "",
+		"title": "Relatle",
+		"description": "Get from one artist to another based on Spotify related artists",
+		"primary": false,
+		"category": "music"
+	},
+	{
+		"link": "https://bandle.app/",
+		"icon": "",
+		"title": "Bandle",
+		"description": "Guess the song based on it's individual parts",
+		"primary": false,
+		"category": "music"
+	},
+	{
+		"link": "https://techyonic.co/swiftle",
+		"icon": "",
+		"title": "Swiftle",
+		"description": "Guess the Taylor Swift song based on a short clip",
+		"primary": false,
+		"category": "music"
+	},
+	{
+		"link": "https://foodlewordle.io/harmonies-io",
+		"icon": "",
+		"title": "Harmonies",
+		"description": "Arrange the tags to make songs/albums",
+		"primary": false,
+		"category": "music"
+	},
+	{
+		"link": "https://costcodle.com",
+		"icon": "",
+		"title": "Costcodle",
+		"description": "Guess the price of an item sold at Costco",
+		"primary": false,
+		"category": "random"
+	},
+	{
+		"link": "https://foodguessr.com",
+		"icon": "",
+		"title": "Foodguesr",
+		"description": "Guess the country of origin of a dish",
+		"primary": false,
+		"category": "random"
+	},
+	{
+		"link": "https://nerdlegame.com",
+		"icon": "",
+		"title": "Nerdle",
+		"description": "Guess the math equation",
+		"primary": false,
+		"category": "random"
+	},
+	{
+		"link": "https://faces.wtf/",
+		"icon": "",
+		"title": "Faces",
+		"description": "Guess the two celebrities based on an AI generated merged photo",
+		"primary": false,
+		"category": "random"
+	},
+	{
+		"link": "https://powershelldle.com/",
+		"icon": "",
+		"title": "PowerShelldle",
+		"description": "Guess the PowerShell cmdlet based on some hint",
+		"primary": false,
+		"category": "random"
+	},
+	{
+		"link": "https://googlefeud.com/",
+		"icon": "",
+		"title": "Google Feud",
+		"description": "Finish the Google autocomplete",
+		"primary": false,
+		"category": "random"
+	},
+	{
+		"link": "https://murdle.com/index.html",
+		"icon": "",
+		"title": "Murdle",
+		"description": "Crack the case of a murder in this logic puzzle",
+		"primary": false,
+		"category": "random"
+	},
+	{
+		"link": "https://www.minutecryptic.com/",
+		"icon": "",
+		"title": "Minute Cryptic",
+		"description": "A single daily cryptic crossword puzzle",
+		"primary": false,
+		"category": "words"
+	}
 ]
