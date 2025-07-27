@@ -12,7 +12,7 @@
 		"icon": "",
 		"title": "Strands",
 		"description": "Find hidden words and uncover the day's theme",
-		"primary": true,
+		"primary": false,
 		"category": "words"
 	},
 	{
@@ -20,7 +20,7 @@
 		"icon": "",
 		"title": "Spellcheck",
 		"description": "A daily spelling game",
-		"primary": true,
+		"primary": false,
 		"category": "words"
 	},
 	{
@@ -44,7 +44,7 @@
 		"icon": "",
 		"title": "Wordle",
 		"description": "Get 6 chances to guess a 5-letter word",
-		"primary": false,
+		"primary": true,
 		"category": "words"
 	},
 	{
@@ -188,7 +188,7 @@
 		"icon": "",
 		"title": "Catfishing",
 		"description": "Guess the wikipedia article based on the categories",
-		"primary": false,
+		"primary": true,
 		"category": "wikipedia"
 	},
 	{
